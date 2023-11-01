@@ -58,3 +58,28 @@ x = y = 25 - 10 - 5;//right-to-left
 console.log(x,y); 
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+// 14-onwards
+
+const firstName = 'Ram', year = '2023', birthYear14On = 1995;
+
+const speaks =`I'm ${firstName}, ${year-birthYear14On} year old`;
+console.log(speaks);
+
+// before ES6
+console.log('first\n\
+second\n\
+third');
+// After ES6
+console.log(`one
+two
+three`);
+
+// type coercion
+console.log('I am '+ 23 + ' years old.');//+ convert number to string
+console.log('23'-'10'-3);//minus,/,* convert str to string
+console.log('23'/'2');
+
+let n='1'+1;
+n-=1;
+console.log(n);//11
