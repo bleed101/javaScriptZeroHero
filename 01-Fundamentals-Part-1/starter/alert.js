@@ -83,3 +83,25 @@ console.log('23'/'2');
 let n='1'+1;
 n-=1;
 console.log(n);//11
+
+//21 -ownwards
+// there are 5 falsy values: 0,undefined,'', null, NaN
+// '18'==18 which means coercion happens for == lhs str converted to number and then compaired.
+
+const userInput = Number(prompt('Enter a number'))//prompt retunr the value in form of string.
+console.log(typeof userInput);
+
+// var1&&var2, var1||var2
+
+const day = 'monday';
+
+switch (day){
+    case 'monday':
+        console.log(`it's Monday`);
+        break;
+    case 'tuesday':
+        console.log(`it's Tuesday`);
+    case 'wednesday':
+    default:
+        console.log('invalid day supplied');
+}
